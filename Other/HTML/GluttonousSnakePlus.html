@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <!--  作者QQ：1832279619  -->
+    <style>
+        #isStop {
+            width: 600px;
+            height: 600px;
+            margin: 10px auto;
+            position: relative;
+            border: black solid 2px;
+            font-size: 18px;
+        }
+
+        #isStop input {
+            width: 80px;
+            height: 50px;
+            margin: 10px 4px;
+        }
+
+        #isStop label {
+            margin: 10px;
+        }
+
+        #isStop button {
+            width: 60px;
+            height: 30px;
+        }
+
+        #map {
+            margin: 10px auto;
+            position: relative;
+            border: black solid 2px;
+        }
+
+        .grid {
+            width: 30px;
+            height: 30px;
+        }
+
+        .isShowGrid {
+            border: #d0cbcb 1px solid;
+        }
+
+        .bgcB {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .bgcR {
+            background-color: #ff0000;
+        }
+
+        /* 圆形边框 */
+        .circularBorder {
+            border-radius: 50%;
+        }
+
+        #controlButtonsParent {
+            position: relative;
+            margin: 10px auto;
+            font-size: 20px;
+        }
+
+        .directionKeyParent {
+            text-align: center
+        }
+
+        .directionKeyParent button {
+            width: 90px;
+            height: 90px;
+        }
+
+        #functionButtonsParent button {
+            min-width: 70px;
+            height: 30px;
+        }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div id="isStop" v-if="isStop">
+        是否有墙：
+        <label>
+            <input type="radio" name="isThereWall" value="0" v-model="isThereWall"> 没有
+        </label>
+        <label>
+            <input type="radio" name="isThereWall" value="1" v-model="isThereWall"> 有
+        </label>
+        <br>
+        显示格子：
+        <label>
+            <input type="radio" name="isShowGrid" value="1" v-model="isShowGrid"> 是
+        </label>
+        <label>
+            <input type="radio" name="isShowGrid" value="0" v-model="isShowGrid"> 否
+        </label>
+        <br>
+        地图大小：
+        <label>宽度：
+            <input type="number" min="10" max="30" v-model="mapWidth">
+        </label>
+        <label>高度：
+            <input type="number" min="10" max="30" v-model="mapHeight">
+        </label>
+        <br>
+        速度等级：
+        <br>
+        <label><input type="radio" name="speed" value="1000" v-model="speed">1-超慢</label>
+        <label><input type="radio" name="speed" value="800" v-model="speed">2</label>
+        <label><input type="radio" name="speed" value="600" v-model="speed">3</label>
+        <br>
+        <label><input type="radio" name="speed" value="500" v-model="speed">4-很慢</label>
+        <label><input type="radio" name="speed" value="400" v-model="speed">5-慢</label>
+        <label><input type="radio" name="speed" value="300" v-model="speed">6-中</label>
+        <br>
+        <label><input type="radio" name="speed" value="200" v-model="speed">7-快</label>
+        <label><input type="radio" name="speed" value="100" v-model="speed">8-很快</label>
+        <label><input type="radio" name="speed" value="80" v-model="speed">9-超快</label>
+        <br>
+        <label><input type="radio" name="speed" value="50" v-model="speed">10-神速</label>
+        <br>
+        <button style="width: 80px; height: 40px" @click="startGame">开始游戏</button>
+    </div>
+
+    <div id="map" v-else :style="{'width': mapWidth > 0 ? (32*mapWidth)+'px' : 0}">
+        <div v-for="i in mapHeight" style="display: flex">
+            <div v-for="j in mapWidth"
+                 :class="{'grid':true,'isShowGrid':isShowGrid==='1','bgcR': j+'-'+i===foodId,
+                 'circularBorder': j+'-'+i===foodId || j+'-'+i===snakeHeadKeyX+'-'+snakeHeadKeyY,
+                 'bgcB':snakeMap.get(j+'-'+i)>=0}"
+                 :id="j+'-'+i">
+                {{snakeMap.get(j + '-' + i) >= 0 ? snakeMap.get(j + '-' + i) : ""}}
+            </div>
+        </div>
+        <hr v-if="isShowGrid==='0'">
+        <div id="controlButtonsParent">
+            <div class="directionKeyParent">
+                <button @click="switchTheDirection(1)">上（W/↑）</button>
+                <br>
+                <button @click="switchTheDirection(2)">左（A/←）</button>
+                <button @click="switchTheDirection(4)">下（S/↓）</button>
+                <button @click="switchTheDirection(3)">右（D/→）</button>
+            </div>
+            <div style="margin: 0 20px">
+                墙壁：{{isThereWall === "1" ? "有" : "没有"}}&nbsp;&nbsp;&nbsp;&nbsp;获得分数: <b>{{pointsEarned}}</b>
+            </div>
+            <div id="functionButtonsParent">
+                <button style="margin-left: 40px" v-if="snakeIntervalId != null && isOpenCheating == 0"
+                        @click="pauseGame">{{isSuspend ? '继续' : '暂停（Space 空格）'}}
+                </button>
+                <button style="margin-left: 40px" v-else disabled>按任意方向键开始</button>
+                <button style="margin-left: 20px" @click="isStop = 1">重新开始</button>
+                <br>
+                <button style="margin-left: 20px" v-if="snakeIntervalId != null && !this.isSuspend"
+                        @click="openCheatingFun">
+                    {{isOpenCheating == 0 ? "开启" : "关闭"}}作弊
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            // 是否停止
+            isStop: 1,
+            // 是否有墙: "0"-没有, "1"-有
+            isThereWall: "0",
+            // 是否显示格子
+            isShowGrid: "1",
+            // 地图高度
+            mapHeight: 10,
+            // 地图宽度
+            mapWidth: 10,
+            // 蛇元素
+            snakeMap: new Map(),
+            // 食物id (X坐标+'-'+Y坐标)
+            foodId: "",
+            // 当前方向: 0-上,1-左,2-右,3-下
+            currentDirection: -1,
+            // 最前一个: 蛇头
+            snakeHeadKeyX: 0,
+            snakeHeadKeyY: 0,
+            // 最后一个: 蛇尾
+            snakeTailValue: 1,
+            // 速度： 500ms
+            speed: 500,
+            // 定时器id
+            snakeIntervalId: null,
+            // 暂停
+            isSuspend: true,
+            // 获得的分数
+            pointsEarned: 1,
+            // 地图格子总数：
+            totalNumberOfMapCells: 0,
+            // 是否开启作弊
+            isOpenCheating: 0,
+        },
+        mounted: function () {
+            // 键盘监听事件
+            document.onkeydown = this.thisPageKeydown;
+        },
+        methods: {
+            // 开始按钮
+            startGame() {
+                this.initData();
+                this.mapHeight = parseInt(this.mapHeight)
+                this.mapWidth = parseInt(this.mapWidth)
+                this.speed = parseInt(this.speed)
+                this.totalNumberOfMapCells = this.mapWidth * this.mapHeight + 1
+                if (this.snakeIntervalId != null) {
+                    clearInterval(this.snakeIntervalId)
+                    this.snakeIntervalId = null
+                }
+                setTimeout(this.isStop = 0, 1000);
+            },
+            // 暂停游戏按钮
+            pauseGame() {
+                // if (this.snakeIntervalId == null && this.isSuspend){
+                //     return
+                // }
+                if (this.isSuspend) {
+                    this.snakeIntervalId = setInterval(() => {
+                        this.recalculateSnakes();
+                    }, this.speed);
+                } else {
+                    clearInterval(this.snakeIntervalId)
+                }
+                this.isSuspend = !this.isSuspend;
+            },
+            // 初始化数据
+            initData() {
+                this.snakeMap = new Map();
+                this.currentDirection = -1;
+                this.snakeHeadKeyX = parseInt(this.mapWidth / 2);
+                this.snakeHeadKeyY = parseInt(this.mapHeight / 2);
+                this.snakeHeadKey = this.snakeHeadKeyX + "-" + this.snakeHeadKeyY;
+                this.snakeTailValue = 1;
+                this.pointsEarned = 1;
+                this.snakeMap.set(this.snakeHeadKey, 1)
+                this.isSuspend = true;
+                this.refreshFood();
+                if (this.snakeIntervalId != null) {
+                    clearInterval(this.snakeIntervalId)
+                    this.snakeIntervalId = null
+                }
+                this.$forceUpdate();
+
+            },
+            // 键盘监听事件
+            thisPageKeydown(e) {
+                // console.log(e)
+                if (this.isStop === 1) {
+                    return
+                }
+                if (e.keyCode === 38 || e.keyCode === 87) {
+                    // W 或 上
+                    this.switchTheDirection(1)
+                } else if (e.keyCode === 37 || e.keyCode === 65) {
+                    // A 或 左
+                    this.switchTheDirection(2)
+                } else if (e.keyCode === 39 || e.keyCode === 68) {
+                    // D 或 右
+                    this.switchTheDirection(3)
+                } else if (e.keyCode === 40 || e.keyCode === 83) {
+                    // S 或 下
+                    this.switchTheDirection(4)
+                } else if (e.keyCode === 32 && this.snakeIntervalId != null) {
+                    // Space（空格）
+                    this.pauseGame();
+                }
+
+            },
+            // 切换方向: directionCode:方向代码(1-上,2-左,3-右,4-下)
+            switchTheDirection(directionCode) {
+                if (this.currentDirection + directionCode === 5 || (this.isSuspend && this.snakeIntervalId != null)) {
+                    return
+                }
+                this.currentDirection = directionCode
+                this.recalculateSnakes()
+                if (this.isSuspend && this.snakeIntervalId == null) {
+                    this.pauseGame()
+                }
+            },
+            // 重新计算蛇
+            recalculateSnakes() {
+                // console.log("蛇头:", this.snakeHeadKeyX + '-' + this.snakeHeadKeyY)
+                // console.log("this.currentDirection:", this.currentDirection)
+                if (this.currentDirection === -1) {
+                    return;
+                }
+                // 现在的蛇尾:
+                let snakeTailValue = this.snakeTailValue
+                // 新的蛇头
+                let newSnakeHeadValue = this.snakeMap.get(this.snakeHeadKeyX + '-' + this.snakeHeadKeyY) + 1;
+                if (newSnakeHeadValue === this.totalNumberOfMapCells) {
+                    newSnakeHeadValue = 1;
+                }
+                // console.log("this.totalNumberOfMapCells: " + this.totalNumberOfMapCells)
+                // console.log("newSnakeHeadValue: " + newSnakeHeadValue)
+                //
+                // console.log("snakeMap: ", this.snakeMap)
+
+                if (this.currentDirection === 1) {
+                    this.snakeHeadKeyY--;
+                    if (this.snakeHeadKeyY <= 0) {
+                        if (this.isThereWall === "1") {
+                            this.fail();
+                            return;
+                        }
+                        this.snakeHeadKeyY = this.mapHeight
+                    }
+                } else if (this.currentDirection === 2) {
+                    this.snakeHeadKeyX--;
+                    if (this.snakeHeadKeyX <= 0) {
+                        if (this.isThereWall === "1") {
+                            this.fail();
+                            return;
+                        }
+                        this.snakeHeadKeyX = this.mapWidth
+                    }
+                } else if (this.currentDirection === 3) {
+                    this.snakeHeadKeyX++;
+
+                    if (this.snakeHeadKeyX > this.mapWidth) {
+                        if (this.isThereWall === "1") {
+                            this.fail();
+                            return;
+                        }
+                        this.snakeHeadKeyX = 1
+                    }
+                } else {
+                    this.snakeHeadKeyY++;
+                    if (this.snakeHeadKeyY > this.mapHeight) {
+                        if (this.isThereWall === "1") {
+                            this.fail();
+                            return;
+                        }
+                        this.snakeHeadKeyY = 1
+                    }
+                }
+                let newSnakeHeadKey = this.snakeHeadKeyX + '-' + this.snakeHeadKeyY
+                // 判断是否吃到食物
+                if (newSnakeHeadKey === this.foodId) {
+                    this.snakeMap.set(newSnakeHeadKey, newSnakeHeadValue);
+                    this.refreshFood();
+                    this.pointsEarned++;
+                    this.$forceUpdate();
+                    if (this.totalNumberOfMapCells - 1 === this.pointsEarned) {
+                        alert("大吉大利，游戏胜利！");
+                        this.initData();
+                    }
+                    return
+                }
+                if (this.snakeMap.get(newSnakeHeadKey) > 0) {
+                    this.fail();
+                    return;
+                }
+                let snakeTailKey = "";
+
+                this.snakeMap.forEach((val, key) => {
+                    if (val === snakeTailValue) {
+                        snakeTailKey = key;
+                    }
+                })
+                this.snakeMap.set(newSnakeHeadKey, newSnakeHeadValue);
+                this.snakeTailValue++;
+                if (this.snakeTailValue >= this.totalNumberOfMapCells) {
+                    this.snakeTailValue = 1
+                }
+                this.snakeMap.delete(snakeTailKey)
+                this.$forceUpdate();
+            },
+            // 刷新食物
+            refreshFood() {
+                let newFoodId = "";
+                do {
+                    newFoodId = parseInt(Math.random() * this.mapWidth + 1) + "-" + parseInt(Math.random() * this.mapHeight + 1);
+                } while (this.snakeMap.get(newFoodId) > 0);
+                this.foodId = newFoodId;
+                this.$forceUpdate();
+            },
+            // 游戏失败
+            fail() {
+                alert("失败！");
+                this.initData();
+            },
+            // 开启作弊开关
+            openCheatingFun() {
+                if (this.isOpenCheating === 0) {
+                    clearInterval(this.snakeIntervalId)
+                    this.isOpenCheating = 1
+                } else {
+                    this.snakeIntervalId = setInterval(() => {
+                        this.recalculateSnakes();
+                    }, this.speed);
+                    this.isOpenCheating = 0
+                }
+            },
+        }
+    });
+</script>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="41vp"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    >
+
+    <DirectionalLayout
+        ohos:id="$+id:dir_id"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+
+        <Text
+            ohos:id="$+id:name"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout_alignment="center"
+            ohos:text_alignment="center"
+            ohos:text_color="#222222"
+            ohos:text_size="16fp"
+            ohos:truncation_mode="ellipsis_at_middle"
+            ohos:weight="10"
+            />
+
+        <Text
+            ohos:id="$+id:phone"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout_alignment="center"
+            ohos:text_alignment="center"
+            ohos:text_color="#555555"
+            ohos:text_size="16fp"
+            ohos:truncation_mode="ellipsis_at_middle"
+            ohos:weight="10"
+            />
+
+        <DirectionalLayout
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:left_margin="20vp"
+            ohos:orientation="horizontal"
+            ohos:weight="7"
+            >
+
+            <Button
+                ohos:id="$+id:edit"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:padding="4vp"
+                ohos:text="$string:edit"
+                ohos:text_color="#00dddd"
+                ohos:text_size="16fp"
+                />
+
+            <Button
+                ohos:id="$+id:delete"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:padding="4vp"
+                ohos:text="$string:delete"
+                ohos:text_color="#cc0000"
+                ohos:text_size="16fp"
+                />
+
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <Text
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#aaeeeeee"
+        ohos:left_margin="20vp"
+        ohos:right_margin="20vp"
+        />
+</DirectionalLayout>

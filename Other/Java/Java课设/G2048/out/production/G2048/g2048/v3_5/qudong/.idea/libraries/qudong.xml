@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="qudong">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jlayer-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-8.0.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

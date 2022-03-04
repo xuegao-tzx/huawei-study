@@ -1,0 +1,9 @@
+static_library("myapp1") {
+    sources = [
+        "hello_world.c"
+    ]
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+    ]
+}

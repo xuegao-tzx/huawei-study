@@ -1,0 +1,13 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(©±½ð
+H
+java:S1135Y"2Complete the task associated to this TODO comment.(‡ñÅ¼
+i
+java:S5843"TSimplify this regular expression to reduce its complexity from 47 to the 20 allowed.(“æ€2
+E
+java:S1066-"/Merge this if statement with the enclosing one.(µÊ¨Ù
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ãÓâ
+k	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì•çÊÿÿÿÿÿ
+k	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ŸµÝýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òüèà

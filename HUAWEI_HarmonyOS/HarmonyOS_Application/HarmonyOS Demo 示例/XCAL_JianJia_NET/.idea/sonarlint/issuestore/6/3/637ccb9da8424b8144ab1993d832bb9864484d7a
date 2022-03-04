@@ -1,0 +1,95 @@
+
+?
+java:S1948)""Make "datas" private or transient.(õ´äğ8¿¸×¼ğ/
+>
+java:S1948q"!Make "tags" private or transient.(ŞŒêœ8Å¸×¼ğ/
+l
+java:S1104"PMake data a static final constant or non-public and provide accessors if needed.(Â‹û8Û¸×¼ğ/
+r
+java:S1104"UMake errorCode a static final constant or non-public and provide accessors if needed.(›‚Â8ê¸×¼ğ/
+v
+java:S1104"TMake errorMsg a static final constant or non-public and provide accessors if needed.(É´¬˜øÿÿÿÿ8û¸×¼ğ/
+p
+java:S1104#"SMake curPage a static final constant or non-public and provide accessors if needed.(¦•®“8‹¹×¼ğ/
+t
+java:S1104$"RMake offset a static final constant or non-public and provide accessors if needed.(É‚Şèúÿÿÿÿ8¹×¼ğ/
+m
+java:S1104%"PMake over a static final constant or non-public and provide accessors if needed.(è¼ğ…8¹×¼ğ/
+w
+java:S1104&"UMake pageCount a static final constant or non-public and provide accessors if needed.(îàÈÇşÿÿÿÿ8Ÿ¹×¼ğ/
+r
+java:S1104'"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿ8 ¹×¼ğ/
+n
+java:S1104("QMake total a static final constant or non-public and provide accessors if needed.(É›Í©8¡¹×¼ğ/
+n
+java:S1104)"QMake datas a static final constant or non-public and provide accessors if needed.(õ´äğ8¡¹×¼ğ/
+p
+java:S1104Q"SMake apkLink a static final constant or non-public and provide accessors if needed.(öòÇ×8¢¹×¼ğ/
+n
+java:S1104R"QMake audit a static final constant or non-public and provide accessors if needed.(š¿Ü÷8¢¹×¼ğ/
+o
+java:S1104S"RMake author a static final constant or non-public and provide accessors if needed.(ÌÊß›8£¹×¼ğ/
+p
+java:S1104T"SMake canEdit a static final constant or non-public and provide accessors if needed.(ÃÇ·È8£¹×¼ğ/
+w
+java:S1104U"UMake chapterId a static final constant or non-public and provide accessors if needed.(‘şïÀşÿÿÿÿ8£¹×¼ğ/
+s
+java:S1104V"WMake chapterName a static final constant or non-public and provide accessors if needed.(äİ·8¤¹×¼ğ/
+u
+java:S1104W"SMake collect a static final constant or non-public and provide accessors if needed.(¦ß¸áşÿÿÿÿ8¤¹×¼ğ/
+v
+java:S1104X"TMake courseId a static final constant or non-public and provide accessors if needed.(ÿì·úúÿÿÿÿ8¤¹×¼ğ/
+r
+java:S1104Y"PMake desc a static final constant or non-public and provide accessors if needed.(õÄ‘Êşÿÿÿÿ8¥¹×¼ğ/
+t
+java:S1104Z"RMake descMd a static final constant or non-public and provide accessors if needed.(ËáÃ—úÿÿÿÿ8¥¹×¼ğ/
+y
+java:S1104["WMake envelopePic a static final constant or non-public and provide accessors if needed.(†È†¸şÿÿÿÿ8¥¹×¼ğ/
+n
+java:S1104\"QMake fresh a static final constant or non-public and provide accessors if needed.(ÿûâ8¥¹×¼ğ/
+m
+java:S1104]"PMake host a static final constant or non-public and provide accessors if needed.(Ö«êú8¦¹×¼ğ/
+p
+java:S1104^"NMake id a static final constant or non-public and provide accessors if needed.(ÍéÌ‘øÿÿÿÿ8¦¹×¼ğ/
+r
+java:S1104_"PMake link a static final constant or non-public and provide accessors if needed.(Í–¸¾üÿÿÿÿ8¦¹×¼ğ/
+p
+java:S1104`"TMake niceDate a static final constant or non-public and provide accessors if needed.(ó¢Œ58¦¹×¼ğ/
+{
+java:S1104a"YMake niceShareDate a static final constant or non-public and provide accessors if needed.(±êøâÿÿÿÿÿ8§¹×¼ğ/
+o
+java:S1104b"RMake origin a static final constant or non-public and provide accessors if needed.(á®¶Ø8§¹×¼ğ/
+o
+java:S1104c"RMake prefix a static final constant or non-public and provide accessors if needed.(ïø…©8¨¹×¼ğ/
+y
+java:S1104d"WMake projectLink a static final constant or non-public and provide accessors if needed.(·íË‡ıÿÿÿÿ8¨¹×¼ğ/
+t
+java:S1104e"WMake publishTime a static final constant or non-public and provide accessors if needed.(‚ŸÒ¦8©¹×¼ğ/
+€
+java:S1104f"^Make realSuperChapterId a static final constant or non-public and provide accessors if needed.(¨çëùøÿÿÿÿ8©¹×¼ğ/
+t
+java:S1104g"WMake selfVisible a static final constant or non-public and provide accessors if needed.(ªõŒí8ª¹×¼ğ/
+w
+java:S1104h"UMake shareDate a static final constant or non-public and provide accessors if needed.(´™á­şÿÿÿÿ8¹¹×¼ğ/
+r
+java:S1104i"UMake shareUser a static final constant or non-public and provide accessors if needed.(«»à‰8È¹×¼ğ/
+|
+java:S1104j"ZMake superChapterId a static final constant or non-public and provide accessors if needed.(ÚèÊÙüÿÿÿÿ8É¹×¼ğ/
+y
+java:S1104k"\Make superChapterName a static final constant or non-public and provide accessors if needed.(¤ÜôŸ8Ê¹×¼ğ/
+n
+java:S1104l"QMake title a static final constant or non-public and provide accessors if needed.(Å¬õ8Ê¹×¼ğ/
+m
+java:S1104m"PMake type a static final constant or non-public and provide accessors if needed.(ûöå©8Ë¹×¼ğ/
+o
+java:S1104n"RMake userId a static final constant or non-public and provide accessors if needed.(Î»Ûò8Ë¹×¼ğ/
+u
+java:S1104o"SMake visible a static final constant or non-public and provide accessors if needed.(ß†¹ıÿÿÿÿ8Ì¹×¼ğ/
+q
+java:S1104p"OMake zan a static final constant or non-public and provide accessors if needed.(¸°Ôúûÿÿÿÿ8×¹×¼ğ/
+m
+java:S1104q"PMake tags a static final constant or non-public and provide accessors if needed.(ŞŒêœ8Ø¹×¼ğ/
+m
+java:S1104y"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8Ù¹×¼ğ/
+l
+java:S1104z"OMake url a static final constant or non-public and provide accessors if needed.(…åØ8Ú¹×¼ğ/

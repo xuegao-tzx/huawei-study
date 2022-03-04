@@ -1,0 +1,33 @@
+
+r
+java:S3008	"\Rename this field "GMusicMessagePath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¶Ä‡
+j
+java:S3008
+"TRename this field "GPlayTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òîûø
+t
+java:S3008"YRename this field "GBackupPicture" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å×Ì şÿÿÿÿ
+m
+java:S3008"WRename this field "GPictureIcon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÏÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ø†Òÿşÿÿÿÿ
+W
+java:S1075	"ARefactor your code to get this URI from a customizable parameter.(‡¶Ä‡
+s
+java:S1104	"]Make GMusicMessagePath a static final constant or non-public and provide accessors if needed.(‡¶Ä‡
+k
+java:S1104
+"UMake GPlayTime a static final constant or non-public and provide accessors if needed.(Òîûø
+u
+java:S1104"ZMake GBackupPicture a static final constant or non-public and provide accessors if needed.(Å×Ì şÿÿÿÿ
+n
+java:S1104"XMake GPictureIcon a static final constant or non-public and provide accessors if needed.(ÁÏÿ
+M
+java:S1444	"7Make this "public static GMusicMessagePath" field final(‡¶Ä‡
+E
+java:S1444
+"/Make this "public static GPlayTime" field final(Òîûø
+O
+java:S1444"4Make this "public static GBackupPicture" field final(Å×Ì şÿÿÿÿ
+H
+java:S1444"2Make this "public static GPictureIcon" field final(ÁÏÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã®÷Íúÿÿÿÿ

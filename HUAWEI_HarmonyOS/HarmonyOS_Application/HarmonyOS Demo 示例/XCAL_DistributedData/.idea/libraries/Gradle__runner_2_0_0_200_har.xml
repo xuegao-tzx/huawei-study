@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: runner-2.0.0.200@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/097b3076520ea844a283eeeccf590970/transformed/runner-2.0.0.200/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/097b3076520ea844a283eeeccf590970/transformed/runner-2.0.0.200/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/097b3076520ea844a283eeeccf590970/transformed/runner-2.0.0.200/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+static_library("hled") {
+    sources = [
+        "hled.c"
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        #千万注意：cmsis路径在OH3.0中的位置
+        "//kernel/liteos_m/kal/cmsis",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+    ]
+}

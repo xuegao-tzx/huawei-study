@@ -1,0 +1,25 @@
+{
+  "app": {
+    "bundleName": "com.xcl.xxx",
+    "vendor": "net",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.net.jianjia",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "jianjia",
+      "moduleType": "har"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+
+d	java:S116$"ORename this field "l_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÀÃ—
+k	java:S116%"QRename this field "l_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Çñàùÿÿÿÿ
+k	java:S116&"VRename this field "l_password1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å‰²
+p	java:S116'"VRename this field "l_password2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ô¶ýÿÿÿÿ
+e	java:S116("PRename this field "l_sex" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•š¨¤
+f	java:S116)"QRename this field "l_card" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷²
+i	java:S116*"ORename this field "t_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Äù¢ûÿÿÿÿ
+k	java:S116+"QRename this field "t_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞÍ˜®ÿÿÿÿÿ
+p	java:S116,"VRename this field "p_password1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çƒ«Åùÿÿÿÿ
+k	java:S116-"VRename this field "p_password2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸þ®Ç
+k	java:S116."QRename this field "p_card" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÒó«ùÿÿÿÿ
+f	java:S116/"QRename this field "r_male" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Þï€
+g	java:S1160"SRename this field "r_female" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÀÈc
+e	java:S1161"PRename this field "b_reg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÉÉ·
+l	java:S1162"RRename this field "b_reset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¥Ý•ùÿÿÿÿ
+c	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä“‚²
+h
+java:S3776F"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(›¾ÑÙ
+\
+java:S3252H"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ãœ²üÿÿÿÿ
+\
+java:S3252I"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Õ¯ó¼þÿÿÿÿ
+\
+java:S3252J"AUse static access with "javax.swing.SwingConstants" for "CENTER".(‰í˜þÿÿÿÿ
+\
+java:S3252K"AUse static access with "javax.swing.SwingConstants" for "CENTER".(¸êòÓûÿÿÿÿ
+\
+java:S3252L"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ì²™ñúÿÿÿÿ
+W
+java:S3252M"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ãðÏÁ
+|
+java:S1217»"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(•ôÄ²ûÿÿÿÿ
+d	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èìëî
+i	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÑÓûüÿÿÿÿ
+i	java:S100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Í„Íøÿÿÿÿ
+c	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¯È
+i	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šŠú÷ýÿÿÿÿ
+d	java:S100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¯Ìõ
+i	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šþÚþÿÿÿÿ
+c	java:S100¸"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¿S
+c	java:S100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þå¨^
+i	java:S100À"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ•ž°úÿÿÿÿ
+i	java:S100Ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( çÌ§ûÿÿÿÿ
+i	java:S100È"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÐÂ˜üÿÿÿÿ
+d	java:S100Ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ïíª
+i	java:S100Ð"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¿€Îøÿÿÿÿ
+d	java:S100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ØÑ¤
+i	java:S100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö©Âüýÿÿÿÿ
+d	java:S100Ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹çÉó
+i	java:S100à"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒäÎøÿÿÿÿ
+c	java:S100ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó…Íz
+c	java:S100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸„‚d
+d	java:S100ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýã…õ
+i	java:S100ð"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øã—…ûÿÿÿÿ
+d	java:S100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øíšž
+d	java:S100ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£Ÿ§
+i	java:S100ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ŒÀÏúÿÿÿÿ
+i	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÔÖ²þÿÿÿÿ
+i	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð²æÑùÿÿÿÿ
+i	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý¬öÛùÿÿÿÿ
+i	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂûãÊþÿÿÿÿ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒí«õ
+f	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã×¾»
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëúõô
+l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÑÓûüÿÿÿÿ
+f	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¯È
+g	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¯Ìõ
+f	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¿S
+l	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ•ž°úÿÿÿÿ
+l	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÐÂ˜üÿÿÿÿ
+l	java:S117Ð"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¿€Îøÿÿÿÿ
+l	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö©Âüýÿÿÿÿ
+l	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒäÎøÿÿÿÿ
+f	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸„‚d
+l	java:S117ð"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øã—…ûÿÿÿÿ
+g	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ£Ÿ§
+l	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÔÖ²þÿÿÿÿ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý¬öÛùÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒí«õ
+?
+java:S1604¶"(Make this anonymous inner class a lambda(ÉãÃ®
+C
+java:S1604Z"(Make this anonymous inner class a lambda(¾À¦‡úÿÿÿÿ
+D
+java:S1604ß"(Make this anonymous inner class a lambda(¸èØÏøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´‹ïí
+c
+java:S2095›"GUse try-with-resources or close this "Statement" in a "finally" clause.(õß¡¬ùÿÿÿÿ
+c
+java:S2095f"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+_
+java:S2095™"HUse try-with-resources or close this "Connection" in a "finally" clause.(þ¤œ¥
+b
+java:S2095h"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+>
+java:S2189º""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ

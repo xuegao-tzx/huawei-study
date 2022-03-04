@@ -1,0 +1,12 @@
+static_library("nightled") {
+    sources = [
+        "nightled.c"
+    ]
+
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/kal/cmsis",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//device/hisilicon/hispark_pegasus/sdk_liteos/include",
+    ]
+}

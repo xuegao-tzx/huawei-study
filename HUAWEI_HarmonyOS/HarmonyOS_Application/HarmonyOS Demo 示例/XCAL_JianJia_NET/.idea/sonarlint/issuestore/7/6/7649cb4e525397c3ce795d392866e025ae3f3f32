@@ -1,0 +1,6 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(şƒê´şÿÿÿÿ8•ï³ğ/
+
+java:S1319"dThe type of "symbols" should be an interface such as "Map" rather than the implementation "HashMap".(‡Óì8ÉÌï³ğ/
+p
+java:S1104"SMake symbols a static final constant or non-public and provide accessors if needed.(‡Óì8³Ğï³ğ/

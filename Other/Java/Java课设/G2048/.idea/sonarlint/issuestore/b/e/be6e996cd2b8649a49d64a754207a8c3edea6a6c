@@ -1,0 +1,19 @@
+
+j	java:S116"URename this field "table_book" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÜô
+h	java:S116"NRename this field "JFm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¯†üÿÿÿÿ
+j	java:S116"PRename this field "Moadd" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÔòùÿÿÿÿ
+f	java:S116"QRename this field "Delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‰ùÆ
+<	java:S131h""Add a default case to this switch.(Åİ¶Ìøÿÿÿÿ
+i	java:S100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡íÜøÿÿÿÿ
+i	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¯øÍÿÿÿÿÿ
+l	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¯øÍÿÿÿÿÿ
+g	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä±Çƒ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß¨ñüÿÿÿÿ
+b
+java:S2095C"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+^
+java:S2095S"HUse try-with-resources or close this "Connection" in a "finally" clause.(ş¤œ¥
+b
+java:S2095U"GUse try-with-resources or close this "Statement" in a "finally" clause.(õß¡¬ùÿÿÿÿ
+c
+java:S2095A"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ

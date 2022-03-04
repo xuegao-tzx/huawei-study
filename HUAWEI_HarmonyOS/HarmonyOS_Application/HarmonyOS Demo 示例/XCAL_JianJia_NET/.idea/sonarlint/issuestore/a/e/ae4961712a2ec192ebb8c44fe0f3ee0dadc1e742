@@ -1,0 +1,5 @@
+
+U
+java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(Éý‹úúÿÿÿÿ
+_
+java:S2095,"DUse try-with-resources or close this "Buffer" in a "finally" clause.(³øË²ÿÿÿÿÿ

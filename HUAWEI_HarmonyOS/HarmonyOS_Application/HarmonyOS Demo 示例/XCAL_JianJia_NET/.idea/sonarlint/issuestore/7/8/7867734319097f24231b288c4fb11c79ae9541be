@@ -1,0 +1,20 @@
+
+s
+java:S1450"]Remove the "mListContainer" field and declare it as a local variable in the relevant methods.(»­™ö
+h	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äŠù„ÿÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.(úú’Þøÿÿÿÿ
+Q	java:S125T"<This block of commented-out lines of code should be removed.(¨ˆÎ©
+—
+java:S1186}"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏÚµÊ
+Z
+java:S1854x"?Remove this useless assignment to local variable "inputStream".(¥Õ¨˜ûÿÿÿÿ
+K
+java:S1481x"0Remove this unused "inputStream" local variable.(¥Õ¨˜ûÿÿÿÿ
+H
+java:S1144r"-Remove this unused private "download" method.(‘ÖÄÙýÿÿÿÿ
+P
+java:S1144†"4Remove this unused private "uploadMultiFile" method.(…ŸºÐþÿÿÿÿ
+K
+java:S1144 "/Remove this unused private "uploadFile" method.(Ÿ×‹ˆüÿÿÿÿ
+f
+java:S1192ˆ"JDefine a constant instead of duplicating this literal "image/png" 3 times.(Õ°¶´üÿÿÿÿ

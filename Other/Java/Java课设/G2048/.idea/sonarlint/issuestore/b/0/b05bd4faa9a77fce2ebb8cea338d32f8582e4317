@@ -1,0 +1,182 @@
+
+b	java:S116("NRename this field "JFm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¹á
+d	java:S116)"ORename this field "JSnm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªıï
+h	java:S116*"NRename this field "JSn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯šÅ¦üÿÿÿÿ
+h	java:S116+"NRename this field "Jsm" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†µ‡øÿÿÿÿ
+b	java:S116,"MRename this field "Js" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò”Ë¸
+d	java:S116."ORename this field "JTip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À·Ÿü
+b	java:S1166"MRename this field "L1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÎ›¿
+b	java:S1167"MRename this field "L2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ô™‘
+g	java:S1168"MRename this field "L3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÕø©ıÿÿÿÿ
+g	java:S1169"MRename this field "L4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ùşØøÿÿÿÿ
+d	java:S116:"PRename this field "About" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òº×+
+`
+java:S1845»"IRename method "V3" to prevent any misunderstanding/clash with field "v3".(ñòÃÌ
+e
+java:S1845Ñ"IRename method "V5" to prevent any misunderstanding/clash with field "v5".(°ìíÿÿÿÿÿ
+o
+java:S4144Š"SUpdate this method so that its implementation is not identical to "L2" on line 241.(ĞĞ–ıÿÿÿÿ
+i
+java:S4144£"SUpdate this method so that its implementation is not identical to "L2" on line 241.(ÜÅ¼i
+e
+java:S3252o"OUse static access with "javax.swing.WindowConstants" for "DO_NOTHING_ON_CLOSE".(¿‰·Ş
+]
+java:S3252˜"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ÓÀşİøÿÿÿÿ
+X
+java:S3252Ÿ"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Ûõìî
+]
+java:S3252¦"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ÂŞŞ°ùÿÿÿÿ
+X
+java:S3252­"AUse static access with "javax.swing.SwingConstants" for "CENTER".(š¢°é
+X
+java:S3252´"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ÿº›´
+4
+java:S2119õ"Save and re-use this "Random".(¼İÅf
+N	java:S106†"9Replace this use of System.out or System.err by a logger.(À¢Ûu
+4
+java:S2119"Save and re-use this "Random".(¼İÅf
+N	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(À¢Ûu
+4
+java:S2119§"Save and re-use this "Random".(¼İÅf
+N	java:S106¸"9Replace this use of System.out or System.err by a logger.(À¢Ûu
+d	java:S100»"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñòÃÌ
+i	java:S100Ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ìíÿÿÿÿÿ
+s	java:S116È"XRename this field "GBackGroupCNS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì°¾ˆûÿÿÿÿ
+
+java:S1186Í	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜Â½€øÿÿÿÿ
+˜
+java:S1186Ñ	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷—
+K
+java:S1948È"/Make "GBackGroupCNS" transient or serializable.(Ì°¾ˆûÿÿÿÿ
+h
+java:S3776Ò"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(¤ßº9
+4
+java:S2119ã"Save and re-use this "Random".(¼İÅf
+T	java:S106ë"9Replace this use of System.out or System.err by a logger.(­ˆ€Àıÿÿÿÿ
+i
+java:S3776š"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(İ‡Èÿ
+n
+java:S3776»"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(°à°øÿÿÿÿ
+n
+java:S3776Ü"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(È§¶µùÿÿÿÿ
+n
+java:S3776ı"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(åóˆÕşÿÿÿÿ
+g
+java:S1192"PDefine a constant instead of duplicating this literal "---æµè½¬ä¸­---" 6 times.(ª–¸Ä
+q
+java:S1192à"ZDefine a constant instead of duplicating this literal "com.mysql.cj.jdbc.Driver" 18 times.(ğ¿Éí
+k
+java:S1192Ş"TDefine a constant instead of duplicating this literal "yyyy-MM-dd|HH-mm-ss" 8 times.(Ìä¼ƒ
+›
+java:S1192ø"ƒDefine a constant instead of duplicating this literal "æŸ¥æ‰¾å¯ç”¨è®¾å¤‡è¶…æ—¶ï¼Œè¯·ç¨åå†è¯•ï¼Œå¦‚ä¾æ—§æœ‰é—®é¢˜ï¼Œ" 3 times.(‚øï²
+Š
+java:S1192ø"sDefine a constant instead of duplicating this literal "è¯·è”ç³»æˆ‘ä»¬çš„æŠ€æœ¯äººå‘˜:xcl@xuegao-tzx.top" 12 times.(‚øï²
+›
+java:S1192ó"Define a constant instead of duplicating this literal "2.ç›®å‰è¯¥åŠŸèƒ½ä¸ç¨³å®šï¼Œå¦‚æ— æ³•æµè½¬å»ºè®®ç¨åå†è¯•" 3 times.(äÏ¾­ıÿÿÿÿ
+^
+java:S1192ç"HDefine a constant instead of duplicating this literal "ERROR!" 30 times.(“ìŒK
+¢
+java:S1192æ"ŠDefine a constant instead of duplicating this literal "æ•°æ®åº“ç»¼åˆé”™è¯¯ï¼Œå¦‚æœä½ çœ‹åˆ°æ­¤å¼¹çª—ï¼Œè¯·ç«‹åˆ»è”ç³»æˆ‘ã€‚" 18 times.(êÔóÎ
+y
+java:S1192ò"cDefine a constant instead of duplicating this literal "1.æ­¤åŠŸèƒ½ä»…æ”¯æŒOpenHarmonyOS/" 3 times.(Ê¯°
+›
+java:S1192û"ƒDefine a constant instead of duplicating this literal "å»ºç«‹å¯ä¿¡è¿æ¥è¶…æ—¶ï¼Œè¯·ç¨åå†è¯•ï¼Œå¦‚ä¾æ—§æœ‰é—®é¢˜ï¼Œ" 3 times.(šã„…
+‡
+java:S1192ş"kDefine a constant instead of duplicating this literal "æ£€æµ‹åˆ°å½“å‰æ‚¨çš„è®¾å¤‡ç¯å¢ƒå¼‚å¸¸ï¼Œ" 6 times.(œ¼ÿ»úÿÿÿÿ
+d
+java:S1192ò"NDefine a constant instead of duplicating this literal "æ³¨æ„äº‹é¡¹:" 3 times.(Ê¯°
+f
+java:S1192ø"ODefine a constant instead of duplicating this literal "é”™è¯¯ä»£ç :" 12 times.(‚øï²
+…
+java:S1192‚"nDefine a constant instead of duplicating this literal "å¢ƒä¸‹ï¼Œä¸”åŒæ–¹è“ç‰™ä¿æŒæ‰“å¼€çŠ¶æ€ï¼" 3 times.(”£•
+b
+java:S1192ä"KDefine a constant instead of duplicating this literal "',Tjindu4=" 6 times.(ˆÆ¥ş
+t
+java:S1192ä"]Define a constant instead of duplicating this literal "update t_user set Ttime4 = '" 7 times.(ˆÆ¥ş
+h
+java:S1192ä"QDefine a constant instead of duplicating this literal " where Tname = '" 9 times.(ˆÆ¥ş
+l
+java:S1192ó"PDefine a constant instead of duplicating this literal "HarmonyOSè®¾å¤‡" 3 times.(äÏ¾­ıÿÿÿÿ
+‚
+java:S1192"kDefine a constant instead of duplicating this literal "è¯·ä¿æŒæ‰‹æœºã€ç”µè„‘åœ¨åŒä¸€ç½‘ç»œç¯" 3 times.(ª–¸Ä
+i
+java:S1192ø"RDefine a constant instead of duplicating this literal "--æµè½¬å¤±è´¥--" 24 times.(‚øï²
+r
+java:S1192†"\Define a constant instead of duplicating this literal "ä¸å¯èƒ½æ‰§è¡Œåˆ°è¿™é‡Œ..." 4 times.(À¢Ûu
+t	java:S135Ù"YReduce the total number of break and continue statements in this loop to use at most one.(íôÚÇşÿÿÿÿ
+g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä±Çƒ
+g	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÜ£
+g	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éò
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çœëêúÿÿÿÿ
+l	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÉÜîúÿÿÿÿ
+g	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã×¾»
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã×¾»
+g	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+g	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶æì
+l	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şƒ¡Ñşÿÿÿÿ
+l	java:S117Á	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†·„şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß¨ñüÿÿÿÿ
+d
+java:S2095Ã"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+c
+java:S2095©	"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+d
+java:S2095ğ"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+_
+java:S2095Á"HUse try-with-resources or close this "Connection" in a "finally" clause.(ş¤œ¥
+d
+java:S2095¾"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+d
+java:S2095ı"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+c
+java:S2095‰"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+c
+java:S2095Ã"GUse try-with-resources or close this "Statement" in a "finally" clause.(õß¡¬ùÿÿÿÿ
+c
+java:S2095ã"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+d
+java:S2095‡"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+c
+java:S2095ò"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+c
+java:S2095¸"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+d
+java:S2095Õ"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+_
+java:S2095‰"HUse try-with-resources or close this "Connection" in a "finally" clause.(ş¤œ¥
+d
+java:S2095í"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+c
+java:S2095Å"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+c
+java:S2095×"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+d
+java:S2095¶"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+d
+java:S2095Ù"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+d
+java:S2095ş"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+c
+java:S2095ï"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+c
+java:S2095‹"GUse try-with-resources or close this "Statement" in a "finally" clause.(õß¡¬ùÿÿÿÿ
+c
+java:S2095À"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+c
+java:S2095ÿ"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+d
+java:S2095§	"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+d
+java:S2095á"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÿ”™ûÿÿÿÿÿ
+c
+java:S2095Û"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+c
+java:S2095€"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ

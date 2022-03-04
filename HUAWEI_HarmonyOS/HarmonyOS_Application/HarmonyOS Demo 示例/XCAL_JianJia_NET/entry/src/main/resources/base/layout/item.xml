@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:left_margin="5vp"
+    ohos:right_margin="5vp"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:bottom_margin="10vp"
+        ohos:ellipsize="end"
+        ohos:top_margin="5vp"
+        ohos:height="match_content"
+        ohos:id="$+id:title"
+        ohos:max_text_lines="1"
+        ohos:text="flutter搭建mvp框架"
+        ohos:text_color="#000000"
+        ohos:text_size="16fp"
+        ohos:text_style="bold"
+        ohos:width="match_parent"/>
+
+    <Text
+        ohos:below="$id:title"
+        ohos:height="match_content"
+        ohos:id="$+id:author"
+        ohos:text="作者："
+        ohos:bottom_margin="10vp"
+        ohos:text_color="#666666"
+        ohos:text_size="14fp"
+        ohos:width="match_content"/>
+
+    <Text
+        ohos:below="$id:title"
+        ohos:height="match_content"
+        ohos:id="$+id:author_name"
+        ohos:right_margin="10vp"
+        ohos:right_of="$id:author"
+        ohos:text="小样"
+        ohos:text_color="#333333"
+        ohos:text_size="14fp"
+        ohos:width="match_content"/>
+
+    <Text
+        ohos:below="$id:title"
+        ohos:height="match_content"
+        ohos:id="$+id:category"
+        ohos:right_of="$id:author_name"
+        ohos:text="分类："
+        ohos:text_color="#666666"
+        ohos:text_size="14fp"
+        ohos:width="match_content"/>
+
+    <Text
+        ohos:below="$id:title"
+        ohos:height="match_content"
+        ohos:id="$+id:category_name"
+        ohos:right_margin="10vp"
+        ohos:right_of="$id:category"
+        ohos:text="开源主项目"
+        ohos:text_color="#333333"
+        ohos:text_size="14fp"
+        ohos:width="match_content"/>
+
+    <Text
+        ohos:below="$id:author"
+        ohos:height="match_content"
+        ohos:id="$+id:time"
+        ohos:text="时间："
+        ohos:text_color="#666666"
+        ohos:text_size="14fp"
+        ohos:width="match_content"/>
+
+    <Text
+        ohos:below="$id:author"
+        ohos:height="match_content"
+        ohos:id="$+id:time_name"
+        ohos:right_of="$id:time"
+        ohos:text="10小时之前"
+        ohos:text_color="#333333"
+        ohos:text_size="14fp"
+        ohos:width="match_content"/>
+
+    <Component
+        ohos:width="match_parent"
+        ohos:height="0.2vp"
+        ohos:below="$id:time"
+        ohos:top_margin="10vp"
+        ohos:background_element="#999999"/>
+
+</DependentLayout>
